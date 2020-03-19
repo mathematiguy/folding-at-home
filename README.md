@@ -6,7 +6,7 @@ Docker container for running [Folding@Home](http://folding.stanford.edu/)
 make docker-pull
 
 # Run folding@home
-make fold USERNAME = "My_User" TEAM=11675 GPU=true POWER=full
+make fold USERNAME=My_User TEAM=11675 GPU=true POWER=full
 ```
 
 The web console is available on port `7396`.
